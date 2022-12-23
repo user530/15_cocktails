@@ -1,10 +1,15 @@
 import React from "react";
 
+// Components
+import CocktailList from "../components/CocktailList";
+import SearchBar from "../components/SearchBar";
+
 const Home = () => {
   return (
-    <div>
-      <h2>home page</h2>
-    </div>
+    <main>
+      <SearchBar />
+      <CocktailList />
+    </main>
   );
 };
 
